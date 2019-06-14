@@ -49,9 +49,11 @@ body {
 }
 
 .content-header {
-  height: 450px;
+  height: 250px;
   width: 100%;
   position: relative;
+  background-image: url("../images/cats.jpg");
+  background-size: cover;
 }
 
 
@@ -63,13 +65,17 @@ body {
   text-shadow: #000;
   color: white;
   position: absolute;
-  bottom: 180px;
+  bottom: 20px;
   left: 30%;
   font-size: 45px;
   text-align: center;
 }
 
 .button {
-  
+  position: absolute;
+  bottom: 20px;
+  border-radius: 5px;
+  background-color: #f00;
+  right: 8%;
 }
 
